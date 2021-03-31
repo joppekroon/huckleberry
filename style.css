@@ -50,3 +50,69 @@ html {
   --light: hsl(0deg, 0%, 60%);
   --white: hsl(0deg, 0%, 100%);
 }
+
+body {
+  background-color: var(--light);
+  color: var(--very-dark);
+}
+
+header {
+  border-bottom: var(--sp-1) solid var(--dark);
+  background-color: var(--white);
+}
+
+header p {
+  font-size: var(--font-large);
+}
+
+main {
+  padding: var(--sp-16) 0;
+}
+
+main p {
+  font-size: var(--font-normal);
+}
+
+p {
+  margin-top: var(--sp-4);
+}
+
+h1 {
+  margin: var(--sp-8) 0;
+  font-size: var(--font-largest);
+  color: var(--black);
+}
+
+h2 {
+  border-bottom: var(--sp-1) solid var(--secondary-darker);
+  width: fit-content;
+  padding: var(--sp-4) var(--sp-8);
+  background-color: var(--secondary-lighter);
+  font-size: var(--font-large);
+  color: var(--black);
+}
+
+strong {
+  color: var(--primary);
+}
+
+.max-width-wrapper {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.intro-chunk {
+  max-width: 450px;
+  padding: var(--sp-8) var(--sp-4);
+}
+
+.card {
+  border-bottom: var(--sp-1) solid var(--dark);
+  padding: var(--sp-4);
+  background-color: var(--white);
+}
+
+.indented-heading {
+  margin-left: calc(-1 * var(--sp-8));
+  margin-top: calc(-1 * var(--sp-3));
+}
