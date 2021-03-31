@@ -10,3 +10,43 @@ body {
 }
 
 /* Add styles here! */
+
+/* 
+ * CSS rules ordered according to: https://meiert.com/en/blog/how-to-order-css-selectors/
+ * CSS properties ordered according to: https://9elements.com/css-rule-order/
+ */
+
+* {
+  margin: 0;
+}
+
+html {
+  font-size: 1.125em; /* 18px but responds to browser setting */
+
+  /* Spacing */
+  --sp-1: 8px;
+  --sp-2: 16px;
+  --sp-3: 24px;
+  --sp-4: 32px;
+  --sp-6: 48px;
+  --sp-8: 64px;
+  --sp-10: 96px;
+  --sp-16: 128px;
+
+  /* Font size palette */
+  --font-normal: 1rem;
+  --font-large: 1.25rem;
+  --font-larger: 1.5rem;
+  --font-largest: 2rem;
+
+  /* Color palette */
+  --primary: hsl(160deg, 100%, 30%);
+  --secondary-lighter: hsl(45deg, 100%, 50%);
+  --secondary-darker: hsl(45deg, 100%, 40%);
+  --black: hsl(0deg, 0%, 0%);
+  --very-dark: hsl(0deg, 0%, 10%);
+  --dark: hsl(0deg, 0%, 30%);
+  --medium: hsl(0deg, 0%, 40%);
+  --light: hsl(0deg, 0%, 60%);
+  --white: hsl(0deg, 0%, 100%);
+}
